@@ -18,5 +18,8 @@ target/
 .DS_Store
 Thumbs.db
 
+# Remove .iml files
+*.iml
+
 # Keep only the 'src' directory
 !src/
