@@ -1,0 +1,22 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore build output
+/out/
+target/
+
+# Ignore dependency management folders (like Maven, Gradle)
+/.gradle/
+/target/
+/node_modules/
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore other system files
+.DS_Store
+Thumbs.db
+
+# Keep only the 'src' directory
+!src/
