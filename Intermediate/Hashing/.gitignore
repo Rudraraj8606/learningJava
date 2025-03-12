@@ -1,29 +1,25 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Ignore IntelliJ IDEA project files
+.idea/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Ignore build output
+/out/
+target/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Ignore dependency management folders (like Maven, Gradle)
+/.gradle/
+/target/
+/node_modules/
 
-### VS Code ###
-.vscode/
+# Ignore log files and temporary files
+*.log
+*.tmp
 
-### Mac OS ###
+# Ignore other system files
 .DS_Store
+Thumbs.db
+
+# Remove .iml files
+*.iml
+
+# Keep only the 'src' directory
+!src/
